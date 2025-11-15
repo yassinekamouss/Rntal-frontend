@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Global styles */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+  padding: 16px;
+}
+
+.snack-success { background: #2e7d32; color: #fff; }
+.snack-error { background: #c62828; color: #fff; }
+.snack-warn { background: #ed6c02; color: #fff; }
